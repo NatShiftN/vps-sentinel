@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "nord-ops",
+  "name": "Nord Ops",
+  "version": "1.0.0",
+  "author": "example",
+  "description": "Cool blue console theme with a wider sidebar and soft corners.",
+  "colors": {
+    "accent": "#88c0d0",
+    "accentBright": "#d8eef5",
+    "background": "#0b1016",
+    "panel": "#121a22",
+    "text": "#e5edf3",
+    "textDim": "#a9bccb",
+    "textFaint": "#728798"
+  },
+  "layout": {
+    "sidebarWidth": 360,
+    "gap": 16,
+    "radius": 6,
+    "density": "comfortable"
+  }
+}

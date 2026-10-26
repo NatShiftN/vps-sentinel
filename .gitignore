@@ -1,0 +1,21 @@
+node_modules
+dist
+dist-ssr
+*.local
+ai_config.json
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+
+# Tauri / Rust
+src-tauri/target
+src-tauri/gen/schemas
+
+release/
+
+VPS-SENTINEL-*.zip
+
+*.log
+
+52pojie*.md
+preview*.png

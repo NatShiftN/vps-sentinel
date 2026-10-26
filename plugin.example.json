@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "kind": "snippets",
+  "id": "my-snippets",
+  "name": "My Snippets",
+  "version": "1.0.0",
+  "author": "example",
+  "description": "A minimal safe snippet plugin. Commands are inserted only, never executed automatically.",
+  "snippets": [
+    {
+      "id": "disk",
+      "name": "Disk usage",
+      "description": "Show filesystem usage.",
+      "command": "df -hT",
+      "tags": ["disk", "health"]
+    },
+    {
+      "id": "failed-units",
+      "name": "Failed units",
+      "description": "List failed systemd units without a pager.",
+      "command": "systemctl --failed --no-pager",
+      "tags": ["systemd"]
+    }
+  ]
+}
